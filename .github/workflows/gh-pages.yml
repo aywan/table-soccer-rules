@@ -3,7 +3,7 @@ name: github pages
 on:
   push:
     branches:
-      - release
+      - main
   pull_request:
 
 jobs:
@@ -22,11 +22,12 @@ jobs:
           # extended: true
 
       - name: Build
-        run: hugo --minify -D
+        run: hugo --minify -D --cleanDestinationDir -s src -d ../public
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/release'
+        if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+          publish_branch: ./release
+          publish_dir: ./public
