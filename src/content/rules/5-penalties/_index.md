@@ -1,9 +1,10 @@
 ---
 title: "5) Штрафы"
 date: 2021-10-01T22:43:54+07:00
-draft: true
+draft: false
 weight: 5000
 level: 2
+anchor: "penalties"
 ---
 
 Данный раздел определяет штрафы за нарушения правил.

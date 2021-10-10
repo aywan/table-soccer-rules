@@ -1,9 +1,10 @@
 ---
 title: "Правила настольного футбола ITSF"
 date: 2021-10-01T00:10:52+07:00
-draft: true
+draft: false
 weight: 0
 level: 1
+anchor: "root"
 ---
 
 Версия 1.0, Март 2019
