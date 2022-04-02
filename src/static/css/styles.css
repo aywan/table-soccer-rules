@@ -231,3 +231,7 @@ table,th, td {
 td{
   padding: 5px;
 }
+
+.definition {
+  font-style: italic;
+}
