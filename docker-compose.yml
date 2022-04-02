@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  hugo:
+    image: klakegg/hugo
+    labels:
+      com.dnsdock.alias: tsr.docker
+    volumes:
+      - ./src:/src
+    command: ['server', '-p 80', '-b tsr.docker']

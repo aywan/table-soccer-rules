@@ -1,0 +1,12 @@
+baseURL: ''
+languageCode: 'ru-ru'
+title: 'ITSF Rules'
+
+contentDir: 'content/ru'
+defaultContentLanguage: 'ru'
+
+languages:
+  ru:
+    weight: 1
+    languageName: 'RU'
+    contentDir: "content/ru"
