@@ -192,6 +192,7 @@ section.page h1 {
 
 section.page .content {
   margin-left: 0.5em;
+  max-width: 1000px;
 }
 
 section.page h1 a,
